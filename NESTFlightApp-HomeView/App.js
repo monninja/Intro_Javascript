@@ -31,3 +31,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+// UI for the the views 
+
