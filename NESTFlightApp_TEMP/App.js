@@ -20,6 +20,23 @@ export default function App() {
           paddingBottom:'15%', 
           }}> Supported by the DigitalNEST </Text>
     </View> 
+
+    <View style={styles.container} sty>
+      <ImageBackground style={styles.container}/>
+      <Image
+        source={require('./assets/NF_logo-01.png')} 
+        style={{
+          position: 'absolute',
+          justifyContent: 'center',        
+          width: 700, 
+          height: 700, 
+          alignSelf:'center',}}/>
+      <Text>
+
+      </Text>
+
+
+    </View>
   );
 }
 
@@ -32,5 +49,5 @@ const styles = StyleSheet.create({
   },
 });
 
-// UI for the the views 
+
 
