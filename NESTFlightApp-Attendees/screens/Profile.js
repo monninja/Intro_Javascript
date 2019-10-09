@@ -1,10 +1,11 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 import ContactThumbnail from '../components/ContactThumbnail';
 import DetailListItem from '../components/DetailListItem';
 
 import colors from '../utils/colors';
+import { fetchUserContact } from '../utils/api';
 import store from '../store';
 
 export default class Profile extends React.Component {

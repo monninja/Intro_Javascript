@@ -10,7 +10,6 @@ import { MaterialIcons } from '@expo/vector-icons';
 import ContactThumbnail from '../components/ContactThumbnail';
 import DetailListItem from '../components/DetailListItem';
 
-
 import colors from '../utils/colors';
 import { fetchUserContact } from '../utils/api';
 import store from '../store';
