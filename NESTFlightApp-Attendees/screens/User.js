@@ -8,6 +8,8 @@ import {
 import { MaterialIcons } from '@expo/vector-icons';
 
 import ContactThumbnail from '../components/ContactThumbnail';
+import DetailListItem from '../components/DetailListItem';
+
 
 import colors from '../utils/colors';
 import { fetchUserContact } from '../utils/api';
@@ -15,16 +17,16 @@ import store from '../store';
 
 export default class User extends React.Component {
   static navigationOptions = ({ navigation: { navigate } }) => ({
-    title: 'Me',
-    headerTintColor: 'white',
+    title: 'My Profile',
+    headerTintColor: 'black',
     headerStyle: {
-      backgroundColor: colors.blue,
+      backgroundColor: colors.greyLight,
     },
     headerRight: (
       <MaterialIcons
         name="settings"
         size={24}
-        style={{ color: 'white', marginRight: 10 }}
+        style={{ color: 'black', marginRight: 10 }}
         onPress={() => navigate('Options')}
       />
     ),
@@ -56,8 +58,9 @@ export default class User extends React.Component {
 
   render() {
     const { user, loading, error } = this.state;
-    const { avatar, name, phone } = user;
+    const { avatar, name, phone, email, cell} = user;
 
+    console.log(user);
     return (
       <View style={styles.container}>
         {loading && <ActivityIndicator size="large" />}
@@ -70,6 +73,28 @@ export default class User extends React.Component {
             phone={phone}
           />
         )}
+        
+        {!loading && (
+          <DetailListItem
+            icon="mail"
+            title="Email"
+            subtitle={email}
+          />
+        )}
+        {!loading && (
+          <DetailListItem
+            icon="phone"
+            title="Work"
+            subtitle={phone}
+          />
+        )}
+        {!loading && (
+          <DetailListItem
+            icon="smartphone"
+            title="Personal"
+            subtitle={cell}
+          />
+          )}
       </View>
     );
   }
@@ -80,6 +105,6 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.blue,
+    backgroundColor: colors.blue
   },
 });

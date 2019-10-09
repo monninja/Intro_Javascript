@@ -3,8 +3,13 @@
     "name": "Contact List",
     "slug": "contact-list",
     "scheme": "contactlist",
-    "sdkVersion": "31.0.0",
+    "sdkVersion": "35.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png"
+    "icon": "./assets/icon.png",
+    "version": "0.1.0",
+    "platforms": [
+      "android",
+      "ios"
+    ]
   }
 }

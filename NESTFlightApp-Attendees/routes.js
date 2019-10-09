@@ -20,7 +20,8 @@ const ContactsScreens = createStackNavigator(
     Profile,
   },
   {
-    initialRouteName: 'Attendees',
+    //initialRouteName: 'Attendees',
+    initialRouteParams: 'Attendees',
     navigationOptions: {
       tabBarIcon: getTabBarIcon('list'),
     },
@@ -33,7 +34,8 @@ const FavoritesScreens = createStackNavigator(
     Profile,
   },
   {
-    initialRouteName: 'Favorites',
+    //initialRouteName: 'Favorites',
+    initialRouteParams: 'Favorites',
     navigationOptions: {
       tabBarIcon: getTabBarIcon('star'),
     },
@@ -47,7 +49,8 @@ const UserScreens = createStackNavigator(
   },
   {
     mode: 'modal',
-    initialRouteName: 'User',
+    //initialRouteName: 'User',
+    initialRouteParams: 'User',
     navigationOptions: {
       tabBarIcon: getTabBarIcon('person'),
     },
@@ -61,13 +64,14 @@ const TabNavigator = createBottomTabNavigator(
     User: UserScreens,
   },
   {
-    initialRouteName: 'Contacts',
-    tabBarPosition: 'bottom',
+    //initialRouteName: 'Contacts',
+    initialRouteParams: 'Attendees',
+    tabBarPosition: 'top',
     tabBarOptions: {
       style: {
         backgroundColor: colors.greyLight,
       },
-      showLabel: false,
+      showLabel: true,
       showIcon: true,
       activeTintColor: colors.blue,
       inactiveTintColor: colors.greyDark,

@@ -18,9 +18,9 @@ export default class Profile extends React.Component {
 
     return {
       title: name.split(' ')[0],
-      headerTintColor: 'white',
+      headerTintColor: 'black',
       headerStyle: {
-        backgroundColor: colors.blue,
+        backgroundColor: colors.white,
       },
     };
   };
@@ -48,7 +48,7 @@ export default class Profile extends React.Component {
           />
         </View>
         <View style={styles.detailsSection}>
-          <DetailListItem
+          <DetailListItem 
             icon="mail"
             title="Email"
             subtitle={email}
