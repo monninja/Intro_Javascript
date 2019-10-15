@@ -1,14 +1,95 @@
 # Intro_Javascript
 In this workshop we will create a minimal NESTFlight web app using React Native and Flux. 
 
-# How to setup
-Requirements/Dependencies: React Native, Expo, Node, Homebrew, Yarn, Xcode.
+# How to setup the followind Requirement/Dependencies: 
+1. React Native
+2. Expo 
+3. Node 
+4. Homebrew 
+5. Yarn 
+6. Xcode.
+7. Git 
 
+## Install Node
+
+* Visit https://nodejs.org/en/download/
+* Follow the instructions 
+
+## Install XCODE
+
+1. Go to the App store for Mac and download as a regualr app 
+2. Google "download Xcode for Windows"
+
+## Install React Native 
+
+1. Run the following command:
+
+```
+npm install -g expo-cli
+```
+OR 
+
+2. Run the following command
+
+```
+sudo npm install -g react-native-cli
+```
+
+
+## Instal Homebrew
+
+1. Run this command in your terminal:
+
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+2. Follow Intrusctions in terminal
+
+3. Run the follwoing command:
+
+```
+brew doctor
+```
+## Install Yarn 
+
+1. Run the follwing command in your terminal
+
+```
+brew install yarn
+```
+
+2. Check if yarn is intalled by running 
+
+```
+$ yarn --version
+
+```
+
+## Install GIT
+
+1. Run the follwing command in your terminal:
+```
+git --version
+```
+
+If you don't havce it, it will prompt you to download it 
+
+2. Manurally download it from this website
+
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+
+## Install NPM CLI
 Assuming that you have Node 10+ installed, you can use npm to install the Expo CLI command line utility:
 * $ npm install -g expo-cli
 * $ git clone https://github.com/monninja/Web3-Intro_Javascript.git
 * $ cd Web3-Intro_Javascript/NESTFlightApp/
 * $ yarn start
+
+# Download EXPO Mobile App
+
+1. Go to Playstore or Apple Store
+2. Search Expo App 
 
 # Run the project
 
