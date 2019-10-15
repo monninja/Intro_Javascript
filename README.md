@@ -1,5 +1,16 @@
 # Intro_Javascript
-In this workshop we will create a minimal NESTFlight web app using React Native and Flux. 
+
+In this workshop we will create a minimal NESTFlight mobile app using React Native. Each week will collectively work on UI view and we will build messaging chat function into app. This is not your typical WIT workshop. We will work as a team of developers that are learning while build out the NESTFlight App. There will be little direct instruction but tons of support by eachother, Josue, and GL.
+
+## NEST Flight Mobile App 
+
+## Things you will need:
+
+1. Thirst for hands on learning
+2. A Positive attitude 
+3. Github account 
+4. Attendance
+
 
 # How to setup the followind Requirement/Dependencies: 
 1. React Native
@@ -86,7 +97,7 @@ Assuming that you have Node 10+ installed, you can use npm to install the Expo C
 * $ cd Web3-Intro_Javascript/NESTFlightApp/
 * $ yarn start
 
-# Download EXPO Mobile App
+## Download EXPO Mobile App
 
 1. Go to Playstore or Apple Store
 2. Search Expo App 
