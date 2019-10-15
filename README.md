@@ -2,8 +2,6 @@
 
 In this workshop we will create a minimal NESTFlight mobile app using React Native. Each week will collectively work on UI view and we will build messaging chat function into app. This is not your typical WIT workshop. We will work as a team of developers that are learning while build out the NESTFlight App. There will be little direct instruction but tons of support by eachother, Josue, and GL.
 
-## NEST Flight Mobile App 
-
 ## Things you will need:
 
 1. Thirst for hands on learning
