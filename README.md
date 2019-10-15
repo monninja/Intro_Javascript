@@ -102,6 +102,18 @@ Assuming that you have Node 10+ installed, you can use npm to install the Expo C
 1. Go to Playstore or Apple Store
 2. Search Expo App 
 
+## Create a TEST project on React Native
+
+
+Run the follwing command in your terminal: 
+
+```
+expo init AwesomeProject
+
+cd AwesomeProject
+npm start # you can also use: expo start
+```
+
 # Run the project
 
 [iOS] Via Expo CLI
